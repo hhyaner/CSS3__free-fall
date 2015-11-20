@@ -1,0 +1,327 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\000031}}
+html,
+body,
+div {
+  padding: 0;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\000038}}
+body {
+  background-color: #ccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000312}}
+h1 {
+  text-align: center;
+  color: #f30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000334}}
+.football-pitch {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  margin: 40px auto;
+  background: url(turf.jpeg) repeat;
+  border: 4px solid #e1e1e1;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000342}}
+  .football-pitch .lines {
+    opacity: 0;
+    -webkit-transition: opacity 1.2s ease-in-out;
+    -ms-transition: opacity 1.2s ease-in-out;
+    -o-transition: opacity 1.2s ease-in-out;
+    -moz-transition: opacity 1.2s ease-in-out;
+    transition: opacity 1.2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000345}}
+    .football-pitch .lines .halfway-line {
+      position: absolute;
+      top: 0;
+      left: 498px;
+      width: 4px;
+      height: 500px;
+      background-color: #e1e1e1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000353}}
+    .football-pitch .lines .center-circle {
+      position: absolute;
+      top: 200px;
+      left: 450px;
+      width: 100px;
+      height: 100px;
+      border: 4px solid #e1e1e1;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000362}}
+    .football-pitch .lines .center-spot {
+      position: absolute;
+      top: 245px;
+      left: 495px;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000371}}
+    .football-pitch .lines .penalty-arc-container-left {
+      position: absolute;
+      left: 141px;
+      top: 196px;
+      width: 25px;
+      height: 100px;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000378}}
+      .football-pitch .lines .penalty-arc-container-left .penalty-arc {
+        float: right;
+        width: 100px;
+        height: 100px;
+        border: 4px solid #e1e1e1;
+        -webkit-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000386}}
+    .football-pitch .lines .penalty-area-left {
+      position: absolute;
+      left: -4px;
+      top: 96px;
+      width: 140px;
+      height: 300px;
+      border: 4px solid #e1e1e1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\0000394}}
+    .football-pitch .lines .penalty-spot-left {
+      position: absolute;
+      left: 91px;
+      top: 245px;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003103}}
+    .football-pitch .lines .goal-area-left {
+      position: absolute;
+      left: -4px;
+      top: 196px;
+      width: 60px;
+      height: 100px;
+      border: 4px solid #e1e1e1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003111}}
+    .football-pitch .lines .corner-area-left-top {
+      position: absolute;
+      left: -8px;
+      top: -8px;
+      width: 16px;
+      height: 16px;
+      border: 4px solid #e1e1e1;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003120}}
+    .football-pitch .lines .corner-area-left-bottom {
+      position: absolute;
+      bottom: -8px;
+      left: -8px;
+      width: 16px;
+      height: 16px;
+      border: 4px solid #e1e1e1;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003129}}
+    .football-pitch .lines .penalty-arc-container-right {
+      position: absolute;
+      left: 141px;
+      top: 196px;
+      width: 25px;
+      height: 100px;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003136}}
+      .football-pitch .lines .penalty-arc-container-right .penalty-arc {
+        float: left;
+        width: 100px;
+        height: 100px;
+        border: 4px solid #e1e1e1;
+        -webkit-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003144}}
+    .football-pitch .lines .penalty-area-right {
+      position: absolute;
+      right: -4px;
+      top: 96px;
+      width: 140px;
+      height: 300px;
+      border: 4px solid #e1e1e1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003152}}
+    .football-pitch .lines .penalty-spot-right {
+      position: absolute;
+      right: 91px;
+      top: 245px;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003161}}
+    .football-pitch .lines .goal-area-right {
+      position: absolute;
+      right: -4px;
+      top: 196px;
+      width: 60px;
+      height: 100px;
+      border: 4px solid #e1e1e1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003169}}
+    .football-pitch .lines .corner-area-right-top {
+      position: absolute;
+      right: -8px;
+      top: -8px;
+      width: 16px;
+      height: 16px;
+      border: 4px solid #e1e1e1;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003178}}
+    .football-pitch .lines .corner-area-right-bottom {
+      position: absolute;
+      bottom: -8px;
+      right: -8px;
+      width: 16px;
+      height: 16px;
+      border: 4px solid #e1e1e1;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003189}}
+  .football-pitch .schedules div {
+    position: absolute;
+    text-align: center;
+    top: 600px;
+    -webkit-transition: top 1.2s ease-in-out;
+    -ms-transition: top 1.2s ease-in-out;
+    -o-transition: top 1.2s ease-in-out;
+    -moz-transition: top 1.2s ease-in-out;
+    transition: top 1.2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003196}}
+  .football-pitch .football-container {
+    position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003202}}
+.football-pitch.ready .lines {
+  opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003206}}
+.football-pitch.ready .schedules .match-vs16 {
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f1c40f;
+  color: #f9f9f9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003213}}
+.football-pitch.ready .schedules .match-vs8 {
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f39c12;
+  color: #f9f9f9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003220}}
+.football-pitch.ready .schedules .match-vs4 {
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #e67e12;
+  color: #f9f9f9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003227}}
+.football-pitch.ready .schedules .match-vs2 {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #d35400;
+  color: #f9f9f9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003234}}
+.football-pitch.ready .schedules .match-49 {
+  left: 20px;
+  top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003238}}
+.football-pitch.ready .schedules .match-50 {
+  left: 20px;
+  top: 140px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003242}}
+.football-pitch.ready .schedules .match-53 {
+  left: 20px;
+  top: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003246}}
+.football-pitch.ready .schedules .match-54 {
+  left: 20px;
+  top: 400px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003250}}
+.football-pitch.ready .schedules .match-51 {
+  right: 20px;
+  top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003254}}
+.football-pitch.ready .schedules .match-52 {
+  right: 20px;
+  top: 140px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003258}}
+.football-pitch.ready .schedules .match-55 {
+  right: 20px;
+  top: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003262}}
+.football-pitch.ready .schedules .match-56 {
+  right: 20px;
+  top: 400px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003266}}
+.football-pitch.ready .schedules .match-57 {
+  left: 180px;
+  top: 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003270}}
+.football-pitch.ready .schedules .match-58 {
+  left: 180px;
+  top: 340px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003274}}
+.football-pitch.ready .schedules .match-59 {
+  right: 180px;
+  top: 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003278}}
+.football-pitch.ready .schedules .match-60 {
+  right: 180px;
+  top: 340px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003282}}
+.football-pitch.ready .schedules .match-61 {
+  left: 280px;
+  top: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003286}}
+.football-pitch.ready .schedules .match-62 {
+  right: 280px;
+  top: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003290}}
+.football-pitch.ready .schedules .match-63 {
+  left: 440px;
+  top: 260px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Vicky\/exercise\/CSS\/worldCup\/index\.scss}line{font-family:\00003294}}
+.football-pitch.ready .schedules .match-64 {
+  right: 440px;
+  top: 200px;
+  background: #c0392b; }
+
+/*# sourceMappingURL=index.css.map */
