@@ -1,3 +1,11 @@
+/*
+ * @title: 足球，慕课网学习用的。
+           链接http://www.imooc.com/learn/134
+ * @desc: 稍稍改了些许代码，或许不够完美，够用了就好。
+ * @use: 在页面中<script>标签内  调用ball.play()就可以了
+ * @author: VictoriaZhang
+ * @date: 2015-11-25 15:47:16
+ */
 var ball = (function() {
     var requestAnimFrame = window.requestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
